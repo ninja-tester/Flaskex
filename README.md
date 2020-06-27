@@ -1,3 +1,8 @@
+Build Docker image:  
+`docker build -t flask .  `  
+Create Docker container with a image:  
+`docker run -p 5151:5000 --detach --name flask-example flask `
+
 <p align="center"><img src="https://raw.githubusercontent.com/anfederico/Flaskex/master/media/flaskex-logo.png" width="128px"><p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
