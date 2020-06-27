@@ -2,6 +2,8 @@ Build Docker image:
 `docker build -t flask .  `  
 Create Docker container with a image:  
 `docker run -p 5151:5000 --detach --name flask-example flask `
+Test Flask is working:   
+http://localhost:5151/
 
 <p align="center"><img src="https://raw.githubusercontent.com/anfederico/Flaskex/master/media/flaskex-logo.png" width="128px"><p>
 
